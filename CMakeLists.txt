@@ -170,3 +170,13 @@ if(USE_PAGMO)
 endif()
 
 add_subdirectory( "${PROJECTROOT}/tudatExampleApplications/templateApplication/TemplateApplication")
+
+# My apps
+
+add_subdirectory( "${PROJECTROOT}/tudatApplications/AE4866/Assignment1")
+add_subdirectory( "${PROJECTROOT}/tudatApplications/AE4866/Assignment2")
+add_subdirectory( "${PROJECTROOT}/tudatApplications/AE4867/assignment1")
+add_subdirectory( "${PROJECTROOT}/tudatApplications/AE4867/assignment2")
+
+add_subdirectory( "${PROJECTROOT}/tudatApplications/DLR/JUICE")
+#add_subdirectory( "${PROJECTROOT}/tudatApplications/LunarAscent")
